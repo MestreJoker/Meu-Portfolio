@@ -10,8 +10,14 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     background-color: #f7fdff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #8adeff;
+    background: linear-gradient(329deg, rgba(138, 222, 255, 1) 0%, rgba(217, 240, 255, 1) 69%);
 }
 
 header {
@@ -79,6 +85,8 @@ header ul {
 
 #content {
     height: auto;
+    width: 100%;
+    max-width: 1366px;
 }
 
 main {
@@ -88,13 +96,19 @@ main {
 
 main>div {
     width: 50%;
+    padding-top: 150px;
 }
 
 #imgPrincipal {
-    width: 350px;
+    width: 420px;
     border-radius: 50%;
     border: 3px solid blue;
     box-shadow: 0px 0px 20px 0px rgba(19, 74, 126, 0.75);
     -webkit-box-shadow: 0px 0px 20px 0px rgba(19, 74, 126, 0.75);
     -moz-box-shadow: 0px 0px 20px 0px rgba(19, 74, 126, 0.75);
+    margin-left: 40px;
+}
+
+#tituloNome {
+    font-size: 64px;
 }
